@@ -15,15 +15,9 @@ function Nav() {
 
     return (
     <div className='nav'>
-      <div className='left'>
-        <img src={zerus} />
-      </div>
-      <div className='right'>
         <Link to='/'>Home</Link>
         <Link to='/menu'>Menu</Link>
         <Link to='/contactus'>Contact Us</Link>
-        {/* <button onClick={toggleNav}><BsList/></button> */}
-      </div>
     </div>
     )
 }

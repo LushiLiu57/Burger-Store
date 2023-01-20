@@ -4,26 +4,7 @@
     background-color: #0c164e;
     display: flex;
     flex-direction: row;
-  }
-  
-  .nav .left {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-left: 150px;
-  }
-  
-  .nav .left img {
-    width: 70px;
-  }
-  
-  .nav .right {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
   }
   
   .nav a {
@@ -31,29 +12,20 @@
     text-decoration: none;
     margin: 15px;
     font-size:20px;
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .nav .right button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .nav .right svg {
+  .nav .svg {
     font-size: 40px;
   }
   
   
   @media only screen and (max-width: 900px) {
-    .nav .right a {
+    .nav a {
       width: 90px;
-    }
-    .nav .left {
-      padding-left: 50px;
-    }
-    .nav .img {
-        display: none;
     }
   }
   
